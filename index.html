@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handbag Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        .product {
+            display: inline-block;
+            margin: 10px;
+            padding: 15px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Handbag Store</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Shop</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <section>
+        <div class="product">
+            <img src="handbag1.jpg" alt="Handbag 1">
+            <h2>Stylish Handbag</h2>
+            <p>Description of the handbag.</p>
+            <p>Price: $50.00</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="handbag2.jpg" alt="Handbag 2">
+            <h2>Classic Tote Bag</h2>
+            <p>Description of the tote bag.</p>
+            <p>Price: $40.00</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <!-- Add more product divs as needed -->
+
+        <div class="filters">
+            <label for="filter">Filter by:</label>
+            <select id="filter">
+                <option value="all">All</option>
+                <option value="stylish">Stylish</option>
+                <option value="classic">Classic</option>
+                <!-- Add more filter options as needed -->
+            </select>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Handbag Store. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
